@@ -21,19 +21,19 @@ int main() {
 
     // Cadastro da primeira carta
     printf("Cadastro da primeira carta:\n");
-    printf("Digite o estado (letra de 'A' a 'H'): ");
+    printf("Goias:\n");
     scanf(" %c", &estado1);
-    printf("Digite o código da carta (ex: A01): ");
+    printf("Go01:\n");
     scanf("%4s", codigoCarta1);
-    printf("Digite o nome da cidade: ");
+    printf("Goiania:\n");
     scanf(" %[^\n]", nomeCidade1);  // Lê a linha inteira, incluindo espaços
-    printf("Digite a população: ");
+    printf("1.437.366:\n");
     scanf("%d", &populacao1);
-    printf("Digite a área (em km²): ");
+    printf("728,8 km²:\n");
     scanf("%f", &area1);
-    printf("Digite o PIB (em bilhões de reais): ");
+    printf("59 bilhoes de reais:\n");
     scanf("%f", &pib1);
-    printf("Digite o número de pontos turísticos: ");
+    printf("8:\n");
     scanf("%d", &pontosTuristicos1);
 
     // Cadastro da segunda carta
