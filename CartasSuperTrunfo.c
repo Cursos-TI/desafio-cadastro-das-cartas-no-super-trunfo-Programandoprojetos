@@ -20,6 +20,7 @@ int main() {
     int pontosTuristicos2;
 
     // Cadastro da primeira carta
+    printf("Cadastro da primeira carta:\n");
     printf("Goias:\n");
     scanf("%c", &estado1);
     printf("Go01:\n");
@@ -36,7 +37,7 @@ int main() {
     scanf("%d", &pontosTuristicos1);
 
     // Cadastro da segunda carta
-    printf("\nCadastro da segunda carta:\n");
+    printf("Cadastro da segunda carta:\n");
     printf("Goias:/n");
     scanf(" %c", &estado2);
     printf("Go02:\n");
