@@ -2,7 +2,7 @@
 
 int main() {
     // Variáveis para a primeira carta
-    char estado;
+    char estado1;
     char codigoCarta1[5];
     char nomeCidade1[50];
     int populacao1;
@@ -20,13 +20,12 @@ int main() {
     int pontosTuristicos2;
 
     // Cadastro da primeira carta
-    printf("Cadastro da primeira carta:\n");
     printf("Goias:\n");
-    scanf(" %c", &estado1);
+    scanf("%c", &estado1);
     printf("Go01:\n");
     scanf("%4s", codigoCarta1);
     printf("Goiania:\n");
-    scanf(" %[^\n]", nomeCidade1);  // Lê a linha inteira, incluindo espaços
+    scanf("%s[^\n]", nomeCidade1);  // Lê a linha inteira, incluindo espaços
     printf("1.437.366:\n");
     scanf("%d", &populacao1);
     printf("728,8 km²:\n");
