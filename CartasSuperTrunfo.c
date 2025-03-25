@@ -24,9 +24,9 @@ int main() {
     printf("Goias:\n");
     scanf("%c", &estado1);
     printf("Go01:\n");
-    scanf("%4s", codigoCarta1);
+    scanf("%4s", &codigoCarta1);
     printf("Goiania:\n");
-    scanf("%s[^\n]", nomeCidade1);  // Lê a linha inteira, incluindo espaços
+    scanf("%s[^\n]", &nomeCidade1);  // Lê a linha inteira, incluindo espaços
     printf("1.437.366:\n");
     scanf("%d", &populacao1);
     printf("728,8 km²:\n");
@@ -41,9 +41,9 @@ int main() {
     printf("Goias:/n");
     scanf(" %c", &estado2);
     printf("Go02:\n");
-    scanf("%4s", codigoCarta2);
+    scanf("%4s", &codigoCarta2);
     printf("Itumbia:\n");
-    scanf(" %[^\n]", nomeCidade2);  // Lê a linha inteira, incluindo espaços
+    scanf(" %[^\n]", &nomeCidade2);  // Lê a linha inteira, incluindo espaços
     printf("107,970:\n");
     scanf("%d", &populacao2);
     printf("2.447 km²:\n");
